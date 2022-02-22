@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Welcome To Jawedkhan Blog</title>
+    <style>
+        #hd1:hover {
+            transition-delay: .0s;
+            background: #4af761;
+            color: #255784;
+            z-index: 1;
+            box-shadow: 0 0 20px #4af761, 0 0 40px #4af761, 0 0 40px #4af761;
+        }
+
+        #hd:hover {
+            transition-delay: .0s;
+            background: #2196f3;
+            color: #255784;
+            z-index: 1;
+            box-shadow: 0 0 20px #2196f3, 0 0 40px #2196f3, 0 0 40px #2196f3;
+        }
+
+        .jk {
+
+            top: 500px;
+        }
+        * {
+  box-sizing: border-box;
+}
+
+
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+
+
+
+
+
+/* pl for image text */
+.caption-pl {
+  text-align: center;
+  background-color: rgb(22, 235, 118);
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.25;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+        
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark" id="home">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="  mr-sm-5" href="jawedkhan.in" style="font-size:30px; text-decoration: none" id="hd1">JawedKhan</a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="btn btn-outline-primary mr-sm-2" href="index.html" id="hd">Home <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                
+                <li class="nav-item active">
+                    <a class="btn btn-outline-primary mr-sm-2" href="jaheer.html" id="hd">JaheerAhmad<span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="btn btn-outline-primary mr-sm-2" href="about.html" id="hd">About<span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="btn btn-outline-primary mr-sm-2" href="teacher.html" id="hd">Teacher<span
+                            class="sr-only">(current)</span></a>
+                </li>
+
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" id="hd">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    
+
+</div>
+
+
+<!-- pl for the image gallery -->
+<div class="pl">
+
+   
+    
+    <!-- Thumbnail images -->
+    <div class="row">
+
+
+
+
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEjpdQ9_Z8-9hcxdVxpCtfoD-pMO68gcGCsFmN2LZNU_2G5xbxQRMDHCC3QFeTnKVkKWPqy6zS4Fkkwanqo0aixK5ZjGXebmlbTOcT3bnzU7EOT_61U9OQTnYbiaeG0GufWO4gBzi4ikELxIze12xuby-o_pLhKoSv_ZXNbdgVhM5eBnBgVD2AIhAexmLw=s4480" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEihiBxMYOq8XtEABensaxIAXmZ31OBZDoLga6mGBYydDNft7Umqvec8KQP1fgconwyDGakFgoFeBJ4u4kMyGDUikN9H6VG_HriO62vGctppUWS5imVRVboIagIZvtya6EG0RGfuoZB5_Q99MPIAl6AUHT01r5Y11lefI_g7iasLFTyvUPw620awxRsl8g=s4000" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEhnlzWn5e3SKeJ3zTZjteWfGc5WCtg-6D7GLHavrAHsDH8HaZH0BIGR02LRNJXFNMiISHk94BPBOlJiUDcXYNWWOIn0CUQqbxEvIeo1AEw75AayxPgoVdzEqTrZlFxl1eJyWM4R6_U9MW3cZptMRZT0RDwdxb7r1BCxrbDey98pVJnqu-j9XM6hhWOB5Q=s4000" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEiTevyAo-g0WgHCDJ9xUXhyglnRTqDDIMGUk4q9ME6L7pKMlpOjZ4sSgAdfqDT8dnhvx3m9hDMSuETkgMvWH0nkhV9rSe2FNnlr5MnfGhqO80405IdSfXi9oTlwFbODZWYqQYlwDVitteBScUp0oIBzUIArs43bLGXowlEzQEJqx3lFL0b2os9hY49AlQ=s4000" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      
+
+
+      
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEiTevyAo-g0WgHCDJ9xUXhyglnRTqDDIMGUk4q9ME6L7pKMlpOjZ4sSgAdfqDT8dnhvx3m9hDMSuETkgMvWH0nkhV9rSe2FNnlr5MnfGhqO80405IdSfXi9oTlwFbODZWYqQYlwDVitteBScUp0oIBzUIArs43bLGXowlEzQEJqx3lFL0b2os9hY49AlQ=s4000" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEixDPnvd-TLZzKJaXHTk01b55B4-x0nVxsziSvpmJdh9237Lrdh6xyU5tYr75L7ZDjhOjrQLalkYTV9Kk20qGbfTYOqeVrzhf1O7UXD4iP58_TSsKL0D7kKhC7gtpzFjr31qAjuUfA8cdeBoRCm62Ra41QlINu6X5-V2DBM2Ff8GAg4LtLcQXRSJpTy1Q=s6528" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEifpUThO7_0BpFCP5K2RIPzxCG3eE9MYp3Ovx0BPKAlNuFrzmANJYwjydOl_Wt5p22Nyj96itPQSacj2Vx6ONeEthde9obmssDBBdKDIVBamDbLzPdJTZJLJkixe09YD5VKH2tI3cOMAvwAIofmTbFEer3BvDWiSo1qBHw5pdA-kss6biA6UD3ZFwNnsw=s6528" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEgCK2BIcpEe47tCI9W2LiPqFCTyLa2uiGfEVp1snVTRcGyoaF4xt2W81xibU8c4mMAFe_hOP0v_e35YRFJ07115C6hDhJwMnI-y4FAZaUoRk-9Jpz8eSrCMpNSEsAl6Zn2UthCM4VTArJI2O0y_FqBns7ABzbRpWCSn9gaKMO1PIMZimiz4n3i8NLUkpg=s4000" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>   
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEir7pTd2y5pC8o1IvE6aL3jYg1feTmTqEjhf0ziotIBe3JlLibr3EtIjXUdCIsMJ8bqcf2Z3sWuBD-xEEzqtP7XeSJwWNM1DyQzu5vijrK8CGv4ojMtdlC2P7psBlqjGBKmf4dXaGXPqBtzn4xxa27qooYhSwWg1aoFTy4UagOziAhBXzTym0Zyan5qwQ=s4000" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEhyA4Qme6aY8KSsRVLhwrg38vNGkvSj7hVmVbyhgRUix9BjyRc98D4BV-gIKgeZOK9gBjSIq2bXYucgI4OcLHhRZ4vOQ9H7JFQdySCpbZLzstlMY7RdMsEdHRwmzA5PA6X6pIG_rYhY9i68_7PS5b3rBWRiMhLJQMqbdP6S1iL8CURCH8Dqbb-fOb0ReQ=s4000" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEi3X22UHUQMW2axas1f4Qe_m-sWr1akcntYhu--VGOQkACgqUnSkMCMGgMMS8TQdfO8FQv7EQPOCZgz-g7XEfRExD4JKFe_-DWVTRRfxcHA2cOstk_K6bTnXWmRVjFVrou2A0-_sWlBcw4PGb5kiLXxX5IVdFQTWxSWe5HixtmtL_huo5mf0bshKFm52A=s6528" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEh12ffg7IFWkIytdyiisElsFX5jSty7orz8EI0apZr_6Ubnbt7M9nADxqJNX3iAaZib8dMBblrUTzliL6PzazRA_ccT8oyY-jK_GM7PWhQccEV8jhJiLjsDd0TY1hcerSrZw9FTlTEZaduvNaSnNfnIWGTTpAs1X0CdgmSVhROxcsd7e6aKADk4w0n4Sg=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>   
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEjN9seh0jhSITAbt8o_098hM2_fv20u_wqplrNg-QGXrcd8QkHrJ3LzEEa3bxLDYmMYniCVpBVsSV-PV7T2J8hxndyhZOic1RXpQasyLjO7WW_I6ou70Q2HtGj20mksyraCyaW7hGk8-IgGPOa7Hfg8HPH9rEso9pzdNLespq29tcMK_7aWWxOjNXVLuw=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEhcsXcJ_rxXsPoNrMT4VwjfhjWyHedyQZ58cLWxtakZjwtouX6VTnHkMEr8CL7DX6Yukjvcm_UFKSk1dLs7pkyHFOfC4-KKBDDKAjLE3uCu8q0Nhk0Vior2q0mvXyDR1cmZegVrTt2nxls_m6fiA06exkXkVbQMdzR2YVto8-dGJ_WqtDW_DAGCatw82g=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEhbTNFeL1L8IqKfgkjAzS8PPYd6d5iIHvfnEbfSgh_FkiOPgQBgrVA9dTDlgeeOv7Lrbhd2Av-UzIU889tXX94njbs9wZndfxyZiB982BjihhltCeVY0Kz-WIp2l3yWpvlPrv0TlcnAk0eEqxK0XZqITWLJzSgFkTjdVg4jYYT2VVotHf0-Kj-IhFiCYg=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEiZx4gffp2ok7oqV3uVMu3hebG6BbFTxImBqXCPv_zpnHp4QfjLiUhpfNFR4R7hCszSMXzMx4J-D-3shqM5sExmbFzaQkvQogcCo4_JAzP4UcTuWfo4rwKE9MB7u3HnbhwvkYDtAic-FeqSy0PUQzMuL35Fzf4KxrewXwnaA8N3uJywBPVMQhgLHZqpzg=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>   
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEj1vtaEf-eHeBcRgTbcyM38UKQBy3A0gObL46XlX5Pb-fPhK9UbOqxGHzfEFC5Mz1s_FVilF8LlduAQAUUPE-iXvWdNABftLdicv6dUT03AmhY3-tS_16ZytJCODrE_AxyimWdg8buKRgt4vW_UCroZHudyn4rcbmS4FnbKeOwjmzn48IDpvYvRTVFgVA=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEgBGRnKXAz7jqIcmDhczRIAEU3T2GWan3nVL0LqtxpitdPAMPYCAOFTLZaZ_xlrZA5gt7BygqCBvnE9MaYdpbMOGf7lyGWWRge-eFGbZPauxpZN_myOYdwBKnX31JV6NT0lerMjJwTVC44H9CAQ4wuboB8TjTDhZ15L-YKx_HmCCW4WgWKl60iJ8XLkSQ=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEgO9vS-uVOaRQDbJGH_kPSjX7HYfU_hFhmiIQHM5eq4hW_TmBKgptGGWga8VDJuoQKKGvgHVnJrQ6AWsW-1Q0pHU6noF3HbfyGYwLuseq2Y-Cc6cgU67NHYvywpI4AJJ9exHRM6UZ24zZTG1C21LXVkuMUW4xNXbevEyM34u5rqGvgZbJdNoSUbvE5dQQ=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEjLWM50E0bmkCWb15ATItYAgrWZaH6CuEZqWROCPDxRQGYAUJK6u86kT2MndgEQh34HIMz3oKsUb_RHpqK6_-CRjvKKpA45HjHYeaiFLgpxfVzlTXA0nnBL_-gechuwvBMLKbAhfN46Pnn6sIG6H_B-VXwgKY-BTm3YHFr_gckZmUUzpGu4hn1hLNv83A=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>   
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEiURgp10VvoophbGIFQWQuKV7g-HFhsQ5YwFI7h95RSJHtZSgVm5uHEfP2hYeDNNbdzEkbUTRfHD469AVL3-GOcXtrDx4PhJP_XN6Mz4-B1oTNNr_J-Mb5-kXBnRXdr5QBhwEIX7jMdnLTTFwxdiA0jHrYsLHTcpl4ReyWzCCwWitf61gBtaNme0FAm_Q=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEi1RePgCLPaB-do0CKqIYI5atz2AcC53CD4hCJNnVbEJlOpOUAh7HzVGWpvnBE25hUXfy_DSo28WhlAWm4Phu46c8spRGQRxUdnVZj0enYJsdyfuXjfCkpB2SP_rK2yh6VT4jOIqFt_ojMLJ71_s3F8ve8VME3K5QHTM3PaqYz1Wqpy07woxD0g5EiefQ=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEjALlxcygEXBE7MGJrvd0KV_T_3EeLPkkfs_8JUA04jtTMfB_jhAFUBdUm-v-eJtSVpWOEmKME1RUia_XeM1bmx4wO3aa9MF_F-ZAINY2BfOBPGkbF-208LWtOXLRUCdmGTSG7UkRgeN3Wgxx493zMglKNzmI0nUT1nc6HiK-uCdJ2n_lUYVEYVHc5cgw=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEgJs-qs2zXbNEUtgD5aI0aMT09zDnEGM-0EsVzdamLg9lvhgD0Y9PmjlPWm-4ltJNNPERl9kdjGs3bDIt858dNAAZRY_neydifZm5_q1d-_M5GxJGsZb-p3N94I-bI3jEHAui08YbBaf_81yYCMLpxD_xMb4KA2jK45f0HIfUzyomm9YlTLrR7ZZ7Jxlg=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>   
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEhZw1Affveo2jHA6GyoTqEJlY7Mlf0FelISUFkjqHHxEfgWWYM5Fuq1MQKRvTMgH-lIGNLeZVEeBes_N0cQZdIbrNJFaBDMaFQaFRP8oOr18Pm3-un3iY-9wuplpM456D2gqL_gA_6uwxWZFMJWvBEUxQsFb7QbGZzbvx7p2jgjLPmAKdcJE3qp6ObKDw=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEhZw1Affveo2jHA6GyoTqEJlY7Mlf0FelISUFkjqHHxEfgWWYM5Fuq1MQKRvTMgH-lIGNLeZVEeBes_N0cQZdIbrNJFaBDMaFQaFRP8oOr18Pm3-un3iY-9wuplpM456D2gqL_gA_6uwxWZFMJWvBEUxQsFb7QbGZzbvx7p2jgjLPmAKdcJE3qp6ObKDw=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEgUDg4uGq4W7APEl-h-oszjxe9-hI-4SHhdrKxTjUcFYm74UYDw-peiNVZ_IiA4LxhDVplv_CK8jtaUFeHBbn3IMDqkJVwlRoVTOswndXy1jXO9UgEl7HdSaBVE3feCwHZ3AtnZPdyOHb2jhkXJtM9HLGE5UBbGkx1UJcCSq7dSxZb4e0-OcP1Eg5mWxw=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEhXc1RWUCRPSC8naLt4p9FhBAeci32V2axATKUmWW_sXmjn4Hy981T-yFXQQp3_Dm4ohu92iUvjZAtNgrEIVDaU3mVB-mwaRFAPs6DvZEvAInB_VXlGmKBYNN8N-Ll0pG0l3UzaEk2ngK-Rdjwm7aj07qB13BEtpGGny--1JQKveSBadg9_W9to0k7tIw=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>   
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEh2LZUuuT_9tx8HRpS1C16HPls5gEEhFr0yHP5A3SDs2wJ-xKNsC9Ijm0BE1loHObIzQhSYxh9a-PdS4MC65CHxNv9da8O94Odvqu-7yjJd6MffXpxCpnwEzSB_Ml3MXwQRYcpE84CGTpGYdzlg1Fj_EfaYQ8uB4a7CAdzHy7A2MYe6GQY1FTyV4i0IGQ=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEiF6kIah-MukJh3ohlrz4L5xV5tTt4pc8UXaKhKEftzkUmPtfRO3dXE-pcY9rCEeZ8JRSx8F6q_sHaKBpg5dnXgqmAkdQj1SlwrGzv0VZ5TpEmIvyVgTj5tcrEdr4CgHATRLosnabGBE_hJEOlWicQKfKeKEbd7xgBLQqJBxg2lByOGrV2l54q4K0on5w=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEhuR57GQnX8XMDWbfjhDkmBaY5LnBilhcdE98pBbvot3Dxyc26fis1rcNyi0osrC9wOGssAt3b8IyUhTSSXvfEEniA3ndOwfZq76y1jRHpAa8VGcSvTjmm8tnui4fNVn6hxzUSL7wjQpLQRfh-arB7F6H5bzxZzrLfg2uz2MYxqA2KscQSiy--GGPBh6Q=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEj1ICqmnUU_hM0Q9wGxOiWXkNnfhpVVhQCMU_9--s3i-TegaJbWxBMVg_rbHbyjWWaVP17_LbR9lSKAoPat49xotReEkSBReonrJBgGlj7tAxTKRz-QXsoJRrnXWDpXoj_uNR1u420vmdEIZgvq9KbOJ8Xrr5iVukvE0Z5F2DBhsz1HhbaN9nWUQvKueQ=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>   
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEg8PatZWjAWU4Pygem5Sbd07ninMZKtOkw3AiJV5au27FP0iXLegktYWL4pLU4koR1oTB7YGrH8kCxNhDynr0kgXM7wsMzONTT9yYtuetVH50Mpf0MPklqAJio9iaUwm1bSyU3Oj17Db1tcqyp8ep9B7k_h8417KmzAmVD0RmgZgXaVrc2gme2ES6fxwg=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEhOw255jYrSOjON49XFoDtwx7QI9G_kKlhSq5aqabZiR2ESXQ_-hnBNUk9Xh2a5nmtjsua9APOB89rW5cLt8orBZAFpqUYgJ7KtZFOo63s_uLEYj2U7Kjek6yVczfumgpt1eV0eblhoas5KZuUBNOMKLz-mLM897EMdzUZNOkRlNEca6UHZDvu1axJYCg=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEgWoYGQ0hr3oQ9Q0f9BE8EFIBUjrJnJgYyF9R5oUJvEymy3yyXq_bSbDbnab9tXSZc1-OFnwRXsGPeBDOJ0x0E1lfl-xts9ZeQmcP7deyp4gkju7STg_h6yWmTPc_8CFVyxAWBXZfw999hhBQ6c92PmX8Nb0_ojaBTfVBxMIzlq6rpqRVBm3-tGKmTxhg=s4618" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEjNUnk66kgoolTJO_ey8sDn1aVzTZJZVWkIkR6oFcow8BbOzTqllukAGgxKskLTZ6S6f906EJHPpArPXCBo6sSYSh2WcKg0CVKQHSROWMAVP599K4iUCeFsrO3QhqNyBViTwgacxaVLtJPCvUaYHjG6JwKvfptzM6GoaW5WXT_EeRntYEJAR1zfiMvqHw=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>   
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEj60Zy89qI4HXmB_AoA2mvVYdMeJfvhLXRGc9F-LtZHaBWWx9lzK5vinlcMFtRIvI_zTKxJ5ZITJ4lCt4tCg2XF1Y4gVodm_JTZ8l3sUvo20E2JF9yHssZe6gPYboAashOTJQWQKjWHVwejSw8_Vtxe_FaKVmN3yUcwDrW6ikRigAdyOLhlXFN1p43bAA=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEh1E5T-xjoBmXeSOWE1whC-BCJQXhV-n8_JEBNy_cnF27KTgWDY9I5p2T8ickpn3zxf6Ln5q671QRLMW2NC-Qv4dBDp61bZ9wXCOry7uUK_40fIF38J0tYZGtXwXO7KwfuOgiBRvKnNsYRBnuTbnsBXSuV71g5iB-WyfdnQDkAL0mt3pL_RrCSf9JpcnA=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEjLnREbV2EiBck75v8SlyHuAARB6m6rW4sqqG-NcreJ_5S7kXSZx2Dpkd0gEsug-_3UyhBNUU_L5VG6ZCzqG5D8A004G5AnlaDaJQvCXcqZpYXtc8Qjxp0vxUcSVCnEaoy1N8ZWwpTsil8p-D7e89tdeLMClU321FjdEPQKB_yb31juvL-3mIJGROXZZw=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEgrpFj4gfdI4uJjkxk1QViMkhU43cejISrrs9T_RBVynZod0V2j_EqbbIT85U4DlgZR04BbrCSdYj0w3AvF1EP4N1XMAtufDYrbMpkag0AEdS-YNoIw6NqnKx0BvZA70NVZMGPj8PFyX0ruLWIxaUXOCZAIUfgAaBz-VKw3bwJRwU6bzpyiVeXxDsH8aQ=s4618" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>   
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEhKeWjP69X_4aGZMj7rhVCYbMFsRDpfD3IfVE7z3n3nj6riRonRGPUL6OlkSCy8-rluT1yFd3FdJgZ9n8uubnb6xXXTUf3PqzDjsQfQt5MNYFkkwiGbe-CfmeU0b2VGrCeOq7hieIzk7dTPPObybTx2OZ-z9Wxm4ZBajcOH5AW7kIuZLYwsSi8iseaz6Q=s4618" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEiRe75eKmUM8MhjvDemJk9rSQ4yjnvm72w-RKaTY-khUqrnPs9O8tEqQ5JU1f23JD3TrYv4AxtA6lzsk806-OcvcLcHrwZ7TtighqcyAmRRgrML_8avExm0cCAvVxNz3SKeJLjTAn96yQHIg_FNrU7NQliEubwJKPwMxUDHj3EP2oTAQZHdQiULVYY0qQ=s4618" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEiyp70mET2Bh6qyN4seRdBT8QuI9ih3JtQwwlD21uemzBvHW2yfFGjYgj5QV4uZ1TuMJGR0uhUiI6Wc-Sd-uiZ9dt0gzVbgaOUyLwhFubaG_Frr06WjVxHHgQVy33RF8g2z_KE7qjJuKgz24mRMd9rtFSHBv7hoPHL-fPQC_tiPAjDb1QUEpaddnmP_zQ=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEhgyj3QR75zefQVaOxndSXPUq5IDUIWidN7I6EX_Z9Ex9AZudeL0a1zcA-EeOob1NgCyxR22-HA_IMIvUdxUELYwJgCSE9sQBv1iXZlyZwAbObkNGb0W8nMVxhBDMDpWHKKwF4_L1H3vRRoliuZnXt78Nj0b8VomqY7SrcWGohYeEWFd7rI7jWTNobVVQ=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>   
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEgCY003K4u9-TXIb1e4bsgiTFUi17QbP8BeOrgzSgufOc7-2Isz1i_LYSDCww6vODJhPGLGfw4vs0rLmalvMraZsj6IluLshpwlIFOpzLE6hJ7KHVk8PLulQ6Vt2q2IdJkzMvbi5hboqPlij5oCEXphmxLfQV2uw7MyqRapVQCelSBfZVaFaADYRfL7Qg=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEiZEzsvqkDwCDYfcZjCylC4KAxJEYX_0IzegtjBGG0ft8zFVMwXlMstWn64cBBRqGy5D8u8-uDjFdbGANc190EYx0hgTyg2QlUgbscj0GJIoDoNwWFQALn7y5s_pMllDsvuc7OJ6qo5ksBVvm8HuS3l7U5zizBefkLgdM4pfb6hAydaEB5-IIH3IrAjuw=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEh2WCRualBVcQPT5gySPZmZBZMm1Dn1rT6b0vlGITCxjJ_MRMBN_amTAnHvnIVvdnpy49XpDrmrUnjl1F_9cgEeq5LKHJm2pwcGQW_PYAZHAGSWyFYqD9xS0d8_qCVymWVXIeQD9QzdZ5N0gRhXit3hssHwhMBixTu59iKdINiwjhmcuTpcUv6t_-C69Q=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEgzbYfLkGW_cLC226yDo1q0DcII3Gvbz4CIYH2LKlv9wEpulsOdCOgmOc7TWYEV43tCiBmGsoC7zq444arW0G4_Aia7eRxmzCMBvpoPlWYFvoNVD86qE4dlDFT_esyBW3hmb7_BKpsxOWURZuwqDwT0Lo3oPGRn3vneKuWkkrsH_l-A3A0KYu3l8zqTTw=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>   
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEgfvbv_xWgpFmdXSt4VMXyN1i2WMwY9ZYVhzAHiELvVEOVjBrr7gWJ_dSrpzXrEsePeqaRH4IcfExnKoQPHkgzBEA_S4TtM8YOCag3xATZIYc9UiOfpLYe2MvwzfXSsvd70n9Mpb8vCHae5p5aRUqrEMTasz0PSdRZh0hLDwuB52JJQxs2K24cUV2rC2Q=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEh96CKXNcxS4auC1rsV1KO3fICJYitKoq21DqmVvb1srSn_9jOW-DRqehyYSxRD1pPFwqZmTmaQzgLJnrX6ywUx1jfAVXhrppHaC4C9vLHt9Fh1y9zrS2y0lKX03HTexvYNJ9ZUyCzXfs2vPRP_lrzdwsQ8YK5ijfL8kaUyEVQXdJdFSuaNexakVrGk-A=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEiJR_E23d3kwIfkB9lstssANFOUtTkYRbJJ9IesMN24pChr5hjQpvBB7da6TpaPbs8XycXGCM9q7w_GyCdv7s9J49EEMzuzZiQ8JN1J7Rh9ks1jn2pkhFpGRAzcACWCwd-CkJ5t0ThMJbhXxo4XHY6Hgnfu1B9PfSLoNGSz56YZ_oWZHzeBUfoVj1JahA=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEjU3RhzyhSrza9QMEbB20PKI1zICKEz6Ofwfpoj99vvS8rRNqW5VJCzbMcPRfAQtIdQDv7V883clhjQJBkDGkwcGimJ0mQHUcKT8TAAb-r8CO030U_fNB4yEqSwIHXtXy6PqrrfFqYD_3rLhevaljY9kKEROCO4HawR8iRJZuuPX1rdmHuOQdgmVhmY0Q=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>   
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEhtXeO7iKzSvPmdqUy21q2M-GQyau_MFqxn3l4hWUlUmUiO_Po6FH7q56TPSNtRgg7it5WbS4Nc_73KywKl5GT6Q4c5c06byu0jvplLQDgDHlIes1lX94Xgx29DWwTxH-cLutBJYwsGSmYYFTxPrDJ2M6PSHVdK35L578kiOnJzlpWRR15rjEh0vWH7hg=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEg8N6zvqa9J9iLVzMj2z0bhIBzkoyp4FzlsoRxi9PxxgRORk8UrO9pU5hFCBhSL0CnBBmALAjd2Q-SZuyxpvnPaFUbwrZc9bYcF8fnCARQ1IjRfJ1Qywn9nVjGTo-aeY3fW4XhpTJNoYiaSEYXk71lB16UwnDa6NvIY4lWITVUJ-fX6yqc3zhqyI9I2eA=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEgGPy4WVoeoohXTU6fjZrBXsOJgS2-0Onvl7aWs2E7Gav8viZr8GPV2eu7j7TxG5AOHF6e86khqrVcq1d-Iop5Ka-ZOmjttoQutjyNwsyQ7Mc38XbplWwovmjwgv2U6Sytyxi_JvyQVNVMRT1PYQEnvZ2EX2S7DoVRdqXc04RLZrZ5v0nE05MXeK2z3hQ=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEg8kZ82PMGD6ns1wfm-_vyyroZk2IZca7veMm1_CC55m_UekaXXJ8N93zlbDKNU-qtwQAE8TmprV56fOX3wFI0PxAMf5dY9jMdeUCKwOJW0cmoPhhUSnzWnVNR2pbJyEqdmO0oUUNGmvBFwss_r3uZFrpXq7lPr0PPedIpiDQrUFXvAux0i3EwUsfNTiQ=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>   
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEhsuhlVGD3-uuR8UgGdztpVeSv0EgOCxzcAY2g64LHDkHDOQ8SbI5BrDNTF_H-MMATmcRkhoH0KQYSBHD-hc9VagYrTnCl3K52_ws2i0WEftEqjApTmqdPL8jgzwk51d9PElzoGBgoPCZmP7HLKWg04valPhZlxgfufXzH3LS31acAeDHKiJXTnQChlcA=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEgBtb7HlaNutF9W3jkOMZ_n26JQGEaaZrhmh_QgGHyDMLo-JT92VBl_jHiAKeXeDr2MDOZ6MoStA4S1hoyXZ2rZ45Q6GvbIBRTiwRYH9plnDFyYma6IY29tE8E1e9zPgxhCWAizrSTAFeihBV6rzVk4JWOkXCqSADlB5KptW-_TkzzsdFHfdXCIS2x8tA=s4618" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEhimZpBNvphBxlKT_cn6pD9cqgjm6S1eA_7Zq3zOQ4b9OhWjO1e0StxyriPauDHCPz32ba0tvJ9F00HI232K1mzx52Sn0xPEc15sFgKgoj1HyB9cxZwh_iDpLUdhC4GXoH1iPgPnXe7bYnq9Hcm8SVN_5uvNytgUJ0cD8Vb0_hI1s6VK1nS1y72jIHqNQ=s4618" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEjqTn008pBF_5IuVKDNybP-MmIvK_mLIPP9ETY3ASCkr2XsKfHug1f7TksIVz6KT5BOz1C-7q7YxxTfnZUELJbQUNeqv7xbWLsg9h9R1riPpW9q2-EDzMG6A2eq4H2DEjIusSB1GdUQYe2hishx6pKJpOutWo7d7BPfs030WwXrVAKL1NYdqyj0ORzwmA=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>   
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEjImdDQQZ9-97GhYegwXqry-l6iSLV_6CMLZB6TMeViSXuycWt0w90FVxVSouvpx7XFcoghcCeXoATNzR5e5-qTca0r5GuOpHVkHJHqzw1IDWeIfAVK-ciLXDMz_iWOStJNVb031A_W9DoX0maMA7ogfhUI8nOJ9HS7C0i5rr-ekNNDw9hngAnXd_suAQ=s4618" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEhv_u-9I1uF6FSnLfoZGgkt44lg0tW69tq0a7r7raSKba-7H4zTbWQgnFQ5ka5KIpI2HIJAAVzEQwv_syQE1SUQIaZVKE8y8A-Q8s-udKFqwEyD38xMuKvLTPwmelAO3rA_G593K-Jf_QfdQOGf6O7QKFkcLd7iqHd8XEU5D9DDnpkb_Ckq6Tv6wuImSA=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEjzw2EcMVBa5i-2IODvdgU2C4hzMfY14TxxwIa6PlLwTZd8xM0QEaXPc_6peISyuUQR4hieZii-dJP10Z4TAJSwuHxBZa0JOqecu7ipXatKWx1QCAJP9yTfsIPjiGQh6AEsjZQrMzWO7v-PqRBVqumBu_bGgukj6kJ2e1Z_Xz98rX9ohQo8oYpQt8TyUg=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEgOGMGd0vSGfP2mumUCWkfe05l_2NMZQyroqNH4_DqaffM36HRMuxJXmIwp6TAK-X9OXLlZmPlqZnaRT0qWlFb8lJ__fGOv1b20H7gMncgu-LjAIeNMRYkiVIp-MCpL4SKqf2DmbXh4L-pTWbnevIBioURFHPbTGrCUwGvuTPiKzpzAKp2tD3eUDhhhHw=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>   
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEhy_83FMkRK3bPY8BQUlS59Y880fsPWazJwry5c8nzcRp0QJmeKRTDNVV2q0JX-OQJXBQ7ERzn61Ohky3n8hbaoSf8JyDMrqo_vmis9oCWBrEs3DD_0DFYxLme_wa0tmWiba93ipjeJhXw1635llq3SRn4gmNsnlb16kBgZPAJcyhfzRPFJarVh3JfhFA=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEjrlJksgYU4SrDSvRKa-FUEN4BLIZOnfL9LTgM8QpZSsAXNJaA4_vRrLKG2E37i8fuKB7WrSyzkW80vNaJ6z7UOMxbqsCpayG-XhnyyFUlRCeRZUjv3rBiLpS-1vu_8JLH7NT4U7PqvoAivvDeLTJTn027n9rHFmnXeLL1QBuLREXe2yblKAUbgwQqSnw=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEg1VILTICwIrhH7JMmIJ7OXaAhuXdWQ0404VhQHM6sbuTsJV2M8vlkRMFxEH0_12EFoIiuwrNDLaykpf_MuYzgIB6sAe85VgtjBOITVh0TY27cAZdXU-Rl0F50bvi1xWW9RTC6UWNl8UHy1TJxibCpra50VrkuTByhviaEGtgmxyNoHk92u1iXWxkOG-Q=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEiqye_H_IOe9Jilj1EKDa19PCwcTXrTqkAAjIXOzRniw9cPPjaDOhVmXxc_Ec9jUgixjdhgFdsbxy7EX71_-YZ4CkYkhtBkdlH0X1z_aMAjEyZo3dzVo8FTMmaZ-mTeMP2mEGefFDsH92QEx2LRBT0z8160xt7wlqb5APoooBV-cI4kNMJINPVbFv71fQ=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>   
+    </div>
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEiolKqITDXOBR4XijqzapWkQcXNFG9ayBKJgDKP9Clzl8Lx2USpF1_VYAAYvRxI4JZqyXJGVHftgHmXwIgqwiO1J1VjYgsmR31ab_mAL1c2d0UoQ1o69TX84DA1Vo-rBOvpbid-68XlJoKq7C34QR23SRhfsBtaCDR-FUnrpkLNbZYKESqN_AWxnmtr7Q=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEhkTGUBX3aD0HEXTJS4hb9jkdgJ_V-Wl0QAw2X2HHpOVwTjISw8RejffSBbQnUcZf7TPGbwqpoVcLcsab_8kHuTWwlWg3w1qx6R_24OJQ-xys9xPz8m8rXRQLaEP5M7mc5ihyulijESf9h66TL7kS6dqyoui9M4Rpxug368Zxb41zGzJ-FW9esngPQh4A=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEj73ZZJLofoWLhfy90T9hh9a158ui9EZduUqJU0TotJt4rV-0hgcziML9EOn2P8fTpXwh57_WKSq4nYzuJBEtXcmNhfyqmUYkNFqx_oMUzLVAw-JGbX90LfbxLrg7NtTIo3yWj9S6-FLb3qEGMan1FmzwYEoGzdCapzRiuxzH0ARjcBPjQQMGOsTaxOqg=s4160" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://blogger.googleusercontent.com/img/a/AVvXsEjI30rPjq402bWmqxUjfJnBxmkz8JnVREQJFUvHTcPtiZQ9MHZtNsrB1swRYPyjONy0sNvBgPwVZkGsFYKCnFoj7KciwDcpKSLn2rSBJye-GGmb4JTA5n2nTwW0IfEc4HpTZkzyRBwe-EAeX2jSjroPGP4Tc-5zucJapdHqGR7M_UBR66QAQl98yKc5YA=s5120" style="width:100%" onclick="currentSlide(1)" alt="Hajrat Ali">
+      </div>   
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="alert alert-dark footer" role="alert"
+        style="background-color: black; text-align: center; bottom: 0px; ; color: wheat; ">
+        &copy;2020-2021 jawedkhan.in || <a href="">Term</a> <a href="">Condition</a>
+    </div>
+    <div class="has">
+        <a href="#home"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMS3Fpp2VNeF_1-xamvbCfHoUDeJjrHYffGw&usqp=CAU" alt="" style="width: 60px; height: 60px; position: fixed;
+         right: 0;
+         bottom: 0; border-radius: 50%; "></a> 
+     </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous">
+        var slideIndex = 1;
+showSlides(slideIndex);
+
+
+
+
+</script>
+</body>
+
+</html>
